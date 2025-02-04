@@ -4,35 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/styles.css">
     <title>Portfolio - Bruno Zarate</title>
 </head>
 <body>
     <header>
         <nav>
-            <div>
-                <ul class="nav bz-nav justify-content-center">
-                    <li class="nav-item bz-active">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item bz-inactive">
-                        <a class="nav-link" href="./index.html">Sobre mí</a>
-                    </li>
-                    <li class="nav-item bz-inactive">
-                        <a class="nav-link" href="./index.html">Proyectos</a>
-                    </li>
-                </ul>
-            </div>
+            <ul class="nav justify-content-center bz-nav">
+                <li class="nav-item">
+                    <a class="nav-link active bz-navbutton" aria-current="page" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bz-navbutton" href="./pages/about_me.html">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bz-navbutton" href="./pages/proyects.html">Proyectos</a>
+                </li>
+            </ul>
         </nav>
     </header>
-    <main>
-
+    <main class="container-sm">
+        <div class="row align-items-center bz-mainpage">
+            <section class="col-sm">
+                <h1 class="bz-title" id="bz-myname">ZARATE, BRUNO</h1>
+                <p class="bz-myinfo">Soy una persona apasionada por el trabajo y comprometida con el aprendizaje continuo, siempre dispuesta a asumir nuevos retos con responsabilidad y dedicación. 
+                <br>Mi experiencia abarca el área administrativa, donde he gestionado actividades relacionadas con el mantenimiento preventivo y la implementación de estrategias orientadas a la innovación. 
+                <br>He tenido la oportunidad de liderar proyectos internos enfocados en mejorar la eficiencia operativa y optimizar los procesos dentro de la organización, 
+                logrando resultados significativos.Actualmente, estoy en proceso de formación como desarrollador Full Stack, 
+                con el objetivo de ampliar mis competencias técnicas y contribuir al desarrollo de aplicaciones web que faciliten la transformación digital 
+                y la mejora de los procesos organizacionales. <br>Estoy motivado por la idea de integrar tecnología y gestión para impulsar la productividad 
+                y la competitividad de las empresas en las que colaboro.</p>
+            </section>
+            <div class="col-sm">
+                <img src="./img/Bruno_FrontImage.png" alt="Foto Placeholder de Bruno Zarate" class="img-fluid"> <!--Placeholder-->
+            </section>
+        </div>
     </main>
     <footer>
-
+        <div class="container-fluid bz-footer fixed-bottom">
+            <div class="row">
+                <section class="col bz-full-rrss text-start">
+                    <ul class="list-group-flush"> <!--Redes Sociales-->
+                        <li class="list-group-item"><img src="./img/linkedin_logo.png" alt="Linkeding Logo" class="bz-rrss"><a href="https://www.linkedin.com/in/bruno-zarate/" target="_blank" class="bz-btn-rss">Linkedin</a></li>
+                        <li class="list-group-item"><img src="./img/github_logo.png" alt="Github Logo" class="bz-rrss"><a href="https://github.com/brunozarate-23" target="_blank" class="bz-btn-rss">Github</a></li>
+                        <li class="list-group-item"><img src="./img/instagram_logo.png" alt="Instagram Logo" class="bz-rrss"><a href="https://www.instagram.com/brunozarate1/" target="_blank" class="bz-btn-rss">Instagram</a></li>
+                    </ul>
+                </section>
+                <section class="col bz-totop text-end">
+                    <a class="link-light link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5"/>
+                      </svg>Ir al Inicio</a>
+                </section>
+                <section class="col bz-contactme text-end">
+                    <!--Call to Action = Enviar un email-->
+        <button class="btn btn-outline-light" onclick="location.href='mailto:zratebruno@gmail.com'"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -960 960 960" class="bz-mailicon"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160zm320-280L160-640v400h640v-400zm0-80 320-200H160zM160-640v-80 480z"/></svg>Contactarme</button>
+                </section>
+            </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,4 +1,77 @@
+* {
+
+}
+body {
+    background-color: #204989;
+    height: 100%;
+}
 .bz-nav {
     background-color: #204989;
     height: 3rem;
+}
+.bz-navbutton {
+    color: #ffffff;
+}
+.bz-navbutton:hover {
+    background-color: #183768;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.bz-mainpage {
+    background-color: #46699e;
+    box-shadow: 0 0 2px 2px #46699e;
+}
+.bz-title {
+    color: #ffffff;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.bz-myinfo {
+    color: #ffffff;
+    padding: 5px;
+}
+.bz-footer {
+    background-color: #183768;
+}
+.bz-rrss {
+    max-width: 30px;
+    max-height: 30px;
+}
+.bz-btn-rss {
+    text-decoration: underline;
+    color: #ffffff;
+    margin-left: 5px;
+}
+.bz-full-rrss {
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+.bz-totop {
+    margin-top: 20px;
+}
+.bz-contactme {
+   margin-top: 10px;
+}
+.bz-mailicon {
+    fill: #ffffff;
+    margin-right: 5px;
+}
+.bz-wip {
+    width: 30rem;
+    margin: auto;
+    align-items: center;
+    background-color: #204989;
+    border: none;
+    color: #ffffff;
+}
+.bz-photo {
+    max-width: 450px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.bz-skills-icons {
+    fill: #ffffff;
+}
+.bz-card {
+    
 }
