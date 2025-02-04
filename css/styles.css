@@ -1,5 +1,5 @@
 * {
-
+    font-family: "Roboto Flex", serif;
 }
 body {
     background-color: #204989;
@@ -57,7 +57,7 @@ body {
     margin-right: 5px;
 }
 .bz-wip {
-    width: 30rem;
+    width: 20rem;
     margin: auto;
     align-items: center;
     background-color: #204989;
