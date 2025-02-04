@@ -73,5 +73,31 @@ body {
     fill: #ffffff;
 }
 .bz-card {
-    
+    background-color: #183768;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.accordion-button {
+    background-color: #204989;
+    color: #ffffff;
+}
+.subTitlev2 {
+    text-align: center;
+    font-size: large;
+}
+.greyTexts {
+    text-align: center;
+    font-size: small;
+    color: #8198BD;
+}
+.interText1 {
+    text-align: center;
+    font-size: medium;
+    color: #ffffff;
+}
+.interText {
+    text-align: center;
+    list-style:none;
+    font-size: medium;
+    color: #ffffff;
 }
